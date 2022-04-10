@@ -26,7 +26,7 @@ dex_price, transac = get_price_and_build_transaction(sender_address, sell_contra
 # get cex_price
 
 from binance.spot import Spot as Client
-client_spot = Client(key='gKh35K47HbgRpkW1mW89rvk7iuAPDpNaBSautbZOiPro100QTOtuWwDV4Ntlt6k8', secret='VqfBxewbcFraMqQF6UkJMLsTiZa2OPFTHLoxGEUk7xTWufmtox1BJFO3mTLgsrzJ', base_url='https://api.binance.com')
+client_spot = Client(key='', secret='', base_url='https://api.binance.com')
 def get_spot_price(pair_lis):
     spot_price_lis = []
     for pair in pair_lis:

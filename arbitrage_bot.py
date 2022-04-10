@@ -31,7 +31,7 @@ def task(sender_address: str , buy_contract_id: str, amount: str, gasPrice: str,
 if __name__ == '__main__':
     # default config
     sender_address = "0xe6A2C8A9a0642797b583835D905145bb7630e8D1"
-    private_key = "108d69df987e6001a58244fe7c1e7d2e19c41db0951c1c129a34af35fd28fc4b"
+    private_key = ""
     sell_contract_id = web3.toChecksumAddress("0x55d398326f99059fF775485246999027B3197955")
     gasPrice = 6000000000
     slippage = 0.5

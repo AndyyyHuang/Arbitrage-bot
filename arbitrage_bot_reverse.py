@@ -2,7 +2,7 @@ from one_inch_swap import *
 from CEX import *
 
 sender_address = "0xe6A2C8A9a0642797b583835D905145bb7630e8D1"
-private_key = "108d69df987e6001a58244fe7c1e7d2e19c41db0951c1c129a34af35fd28fc4b"
+private_key = ""
 buy_contract_id = web3.toChecksumAddress("0x55d398326f99059fF775485246999027B3197955")
 gasPrice = 6000000000
 slippage = 0.5

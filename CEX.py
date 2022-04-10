@@ -4,8 +4,8 @@ import time
 
 proxies = {'http': 'http://127.0.0.1:1086',
            'https': 'http://127.0.0.1:1086'}
-client = Client(api_key="8YbN0qDgaPhYQCQjW8v2v3JOWNHoTjOZgLkXsF1MeT3BY4Lu1TzVrPCd3SQRSBuf",
-                api_secret="GNStPoGYiM5fb03fJUx0uSnltJUK8IPTF8f8nk1LcHl6mqsVHDuEs9AIO0GWHUCe",
+client = Client(api_key="",
+                api_secret="",
                 requests_params={'proxies': proxies})
 
 
