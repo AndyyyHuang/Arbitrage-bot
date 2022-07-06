@@ -45,7 +45,6 @@ if __name__ == '__main__':
         task(sender_address=sender_address, buy_contract_id=buy_contract_id, amount=amount,
              gasPrice=gasPrice, slippage=slippage)
 
-"""
         if spread >= 1:
             tx_token = swap(transac, private_key)
             dex_balance = get_dex_balance(senderAddress=sender_address, tokenContractAddress=buy_contract_id, tokenContractAbi="")
@@ -56,6 +55,5 @@ if __name__ == '__main__':
 
         else:
             continue
-"""
 
 
